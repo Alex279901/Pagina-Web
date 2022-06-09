@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practica 2</title>
+	<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+</style>
+</head>
+
+
+
+<body>
+
+<div id="header">
+<h1>Alejandro Cortés</h1>
+<div class="nav-center">
+          <button class="toggle-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+          <aside class="sidebar">
+            <div class="sidebar-header">
+              <button class="toggle-btn" id="closing-btn">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+            <div class="links">
+              <li>
+                <a class="link scroll-link" href="#">Home</a>
+              </li>
+              <li>
+                <a class="link scroll-link" href="#projects-title">Projects</a>
+              </li>
+              <li>
+                <a class="link scroll-link" href="#about">About</a>
+              </li>
+              <li>
+                <a class="link scroll-link" href="#contact">Contact</a>
+              </li>
+            </div>
+          </aside>
+        </div>
+</div>
+
+<div> id="nav">
+Alex<br>
+Cortés<br>
+Arceo
+</div>
+
+<div id="section">
+<h1>Yo soy...</h1>
+<p> Aqui va una descripcion de mi vida</p>
+</div> <br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form>
+  Usuario:<br>
+  <input type="text" name="Username"><br>
+  Contraseña:<br>
+  <input type="password" name="psw">
+</form>
+
+<div id="footer">
+<input type="button" onclick="alert('Has entrado a mi prueba #2')" value="Click Me!">
+</div>
+
+</html>
